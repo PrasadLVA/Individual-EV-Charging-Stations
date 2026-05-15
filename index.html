@@ -162,6 +162,52 @@ tbody tr:nth-child(odd):hover td{background:#f5f2ec;}
   .nav-link{font-size:.78rem;padding:6px 9px;}
   .hs{min-width:72px;padding-right:14px;margin-right:14px;}
 }
+
+/* FOOTER */
+.site-footer {
+  background: var(--ink);
+  color: rgba(255,255,255,.55);
+  padding: 28px 32px;
+  text-align: center;
+  font-size: .78rem;
+  line-height: 1.8;
+  letter-spacing: .01em;
+}
+.site-footer strong {
+  color: rgba(255,255,255,.85);
+  font-weight: 600;
+}
+.site-footer .footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.site-footer .footer-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+  color: rgba(255,255,255,.65);
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 5px 13px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+.site-footer .footer-divider {
+  width: 40px;
+  height: 2px;
+  background: rgba(255,255,255,.15);
+  border-radius: 2px;
+  margin: 14px auto;
+}
+.site-footer .footer-baf {
+  color: rgba(255,255,255,.35);
+  font-size: .72rem;
+  margin-top: 14px;
+}
 </style>
 </head>
 <body>
@@ -1315,5 +1361,30 @@ window.onload = function() {
   ]);
 };
 </script>
+
+<!-- SITE FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-tag">&#9888; Disclaimer</div>
+    <p>
+      <strong>The information contained in this website is compiled from various inputs received from industry experts, electrical safety professionals, and messages shared across apartment community groups and cluster forums.</strong>
+    </p>
+    <div class="footer-divider"></div>
+    <p>
+      This content is intended for <strong>general awareness and guidance purposes only</strong> and does not constitute legal, electrical, or professional advice.
+      AOAs, RWAs, and individual residents are <strong>strongly advised to conduct their own due diligence</strong>, consult qualified electrical engineers,
+      licensed electricians, and relevant regulatory authorities (BESCOM / DISCOM / BIS) before taking any decision or action regarding EV charging installations.
+    </p>
+    <div class="footer-divider"></div>
+    <p>
+      The <strong>Bangalore Apartments&#8217; Federation (BAF)</strong> and the contributors to this advisory shall not be held liable for any decisions made
+      solely on the basis of this information. Always act in accordance with applicable laws, DISCOM regulations, IS/IEC standards, and your community&#8217;s specific electrical capacity.
+    </p>
+    <div class="footer-baf">
+      &#9889; Individual EV Charging Stations Advisory &nbsp;&#8212;&nbsp; Bangalore Apartments&#8217; Federation (BAF) &nbsp;&#8212;&nbsp; 2025
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
